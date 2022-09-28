@@ -20,7 +20,7 @@
                     <nav class="nav">
                         <ul class="nav__item d-flex">
                             <li class="nav__list">
-                                <a href="#mobile" class="nav__link">1Продать</a>
+                                <a href="#mobile" class="nav__link">Продать</a>
                             </li>
                             <li class="nav__list">
                                 <a href="#" class="nav__link">Отзывы</a>
