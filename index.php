@@ -34,6 +34,15 @@
                             <li class="nav__list">
                                 <a href="#" class="nav__link">Халява</a>
                             </li>
+                            <li class="logo">
+                                <img src="/img/cs_money-loog 1.png" class="logo">
+                            </li>
+                            <li class="language">
+                                <img src="/img/197408 1.png" class="language">
+                            <li id="vector">
+                                <img src="/img/Vector 1.png" class="language">
+                            </li>
+                            </li>
                         </ul>
                     </nav>
                 </div>
