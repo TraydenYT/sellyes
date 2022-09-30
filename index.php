@@ -71,6 +71,15 @@
         <div class="container-fluid">
             <div class="mobile__label">Выберите игру</div>
             <div class="mobile__subtitle">Выберите определенную игру и начинайте продавать вместе с нами</div>
+            
+            <div class="col-md-8">
+        <div class="d-flex form-inputs">
+        <input class="form-control" type="text" placeholder="Введите игру">
+        <i class="bx bx-search"></i>
+        </div>
+           </div>
+
+
             <div class="row">
                    <div class="mobile__inner">
                         <a href="https://www.hltv.org/" target="_blank">
@@ -117,9 +126,55 @@
                         <div class="mobile__item_plus"></div>
                         </div>
                     </a>
-                    
-                    
                    </div>
+
+                   <div class="mobile__inner">
+                        <a href="https://www.hltv.org/" target="_blank">
+                                <div class="mobile_item mobile_item_1">
+                                <div class="mobile__item_subtitle"></div>
+                                <div class="mobile__item_plus"></div>
+                            </div>
+                        </a>
+
+                        <a href="https://www.hltv.org/" target="_blank">
+                                <div class="mobile_item mobile_item_1">
+                                <div class="mobile__item_subtitle"></div>
+                                <div class="mobile__item_plus"></div>
+                            </div>
+                        </a>
+
+                        <a href="https://www.hltv.org/" target="_blank">
+                                <div class="mobile_item mobile_item_1">
+                                <div class="mobile__item_subtitle"></div>
+                                <div class="mobile__item_plus"></div>
+                            </div>
+                        </a>
+                        <a href="https://www.hltv.org/" target="_blank">
+                                <div class="mobile_item mobile_item_1">
+                                <div class="mobile__item_subtitle"></div>
+                                <div class="mobile__item_plus"></div>
+                            </div>
+                        </a>
+                        <a href="https://www.hltv.org/" target="_blank">
+                            <div class="mobile_item mobile_item_1">
+                            <div class="mobile__item_subtitle"></div>
+                            <div class="mobile__item_plus"></div>
+                        </div>
+                    </a>
+                    <a href="https://www.hltv.org/" target="_blank">
+                        <div class="mobile_item mobile_item_1">
+                        <div class="mobile__item_subtitle"></div>
+                        <div class="mobile__item_plus"></div>
+                        </div>
+                    </a>
+                    <a href="https://www.hltv.org/" target="_blank">
+                        <div class="mobile_item mobile_item_1">
+                        <div class="mobile__item_subtitle"></div>
+                        <div class="mobile__item_plus"></div>
+                        </div>
+                    </a>
+                   </div>
+
             </div>
         </div>
     </section> 
