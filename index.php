@@ -16,52 +16,50 @@
       <section class="promo">
         <div class="container-fluid">
             <header class="header d-flex">
-                <div class="header__navigation">
-                    <nav class="nav">
-                        <ul class="nav__item d-flex">
-                            <li class="nav__list">
-                                <a href="#mobile" class="nav__link">Продать</a>
-                            </li>
-                            <li class="nav__list">
-                                <a href="#" class="nav__link">Отзывы</a>
-                            </li>
-                            <li class="nav__list">
-                                <a href="#" class="nav__link">Помощь</a>
-                            </li>
-                            <li class="nav__list">
-                                <a href="#" class="nav__link">Гарантии</a>
-                            </li>
-                            <li class="nav__list">
-                                <a href="#" class="nav__link">Халява</a>
-                            </li>
-                            <li class="logo">
-                                <img src="/img/cs_money-loog 1.png" class="logo">
-                            </li>
-                            <li class="language">
-                                <img src="/img/197408 1.png" class="language">
-                            <li id="vector">
-                                <img src="/img/Vector 1.png" class="language">
-                            </li>
-                            </li>
+                    <div class="header_navigation">
+                        <nav class="nav">
+                            <ul class="menu d-flex">
+                                <li class="menu__list">
+                                    <a href="#" class="menu__link lang" key="Sell">Продать</a>
+                                </li>
+                                <li class="menu__list">
+                                    <a href="#" class="menu__link lang" key="Reviews">Отзывы</a>
+                                </li>
+                                <li class="menu__list">
+                                    <a href="#" class="menu__link lang" key="Guarantees">Гарантии</a>
+                                </li>
+                                <li class="menu__list">
+                                    <a href="#" class="menu__link lang" key="freebie">Халява</a>
+                                </li>
+                                <li class="menu__list">
+                                    <a href="#" class="menu__link lang" key="help">Помощь</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__logo">
+                        <img src="/img/cs_money-loog 1.pn" alt="logo" class="logo">
+                    </div>
+
+                    <div class="header__contacts">
+                        <ul class="d-flex">
+                            <li class="header-item-lang-en"><button id="en" class="translate"><img src="img/en.png" alt="#"></button></li>
+                            <li class="header-item-lang-ru"><button id="ru" class="translate"><img src="img/197408 1.png" alt="#"></button></li>
+                            <button class="button lang" key="authorization">Авторизация</button>
                         </ul>
-                    </nav>
-                </div>
+                    </div>
                    
-                <div class="header__contacts">
-                    <button class="button">Авторизация</button>
-                </div>
             </header>
 
              <div class="promo__wrapper d-flex">
                 <div class="promo__left">
-                    <h1 class="promo__header">Торговая Площадка только для избранных</h1>
-                    <h2 class="promo__subheader">Аккаунты, скины,буст, ферма - ксго и многое другое только у нас!</h2>
+                    <h1 class="promo__header lang" key="Marketplace">Торговая Площадка только для избранных</h1>
+                    <h2 class="promo__subheader lang" key="submarketplace">Аккаунты, скины,буст, ферма - ксго и многое другое только у нас!</h2>
                     <div class="promo_btn">
                         <div class="button__seller">
-                            <a href="#mobile"><button class="button">Продать</button></a>
+                            <a href="#mobile" key="sell"><button class="button lang" key="Sell">Продать</button></a>
                             <!-- <button class="button button_sell">1</button> -->
                         </div>
-                        <button class="button button_trust">TRUSTPILOT</button>
                     </div>
                 </div> 
                  
@@ -222,6 +220,7 @@
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>
