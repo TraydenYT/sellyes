@@ -20,7 +20,7 @@
                         <nav class="nav">
                             <ul class="menu d-flex">
                                 <li class="menu__list">
-                                    <a href="#" class="menu__link lang" key="Sell">Продать</a>
+                                    <a href="#mobile" class="menu__link lang" key="Sell">Продать</a>
                                 </li>
                                 <li class="menu__list">
                                     <a href="#" class="menu__link lang" key="Reviews">Отзывы</a>
@@ -43,9 +43,11 @@
 
                     <div class="header__contacts">
                         <ul class="d-flex">
-                            <li class="header-item-lang-en"><button id="en" class="translate"><img src="img/en.png" alt="#"></button></li>
-                            <li class="header-item-lang-ru"><button id="ru" class="translate"><img src="img/197408 1.png" alt="#"></button></li>
-                            <button class="button lang" key="authorization">Авторизация</button>
+                            <div class="header__lan d-flex">
+                                <li class="header-item-lang-en"><button id="en" class="translate"><img src="img/en.png" alt="#"></button></li>
+                                <li class="header-item-lang-ru"><button id="ru" class="translate"><img src="img/197408 1.png" alt="#"></button></li>
+                            </div>
+                            <button class="button lang" key="Authorization">Авторизация</button>
                         </ul>
                     </div>
                    
@@ -69,12 +71,13 @@
 
      <section class="mobile" id="mobile" >
         <div class="container-fluid">
-            <div class="mobile__label">Выберите игру</div>
-            <div class="mobile__subtitle">Выберите определенную игру и начинайте продавать вместе с нами</div>
+            <div class="mobile__label lang" key="CHOOSEAGAME">Выберите игру</div>
+            
+            <!-- <div class="mobile__subtitle">Выберите определенную игру и начинайте продавать вместе с нами</div> -->
             
             <div class="col-md-8">
         <div class="d-flex form-inputs">
-        <input class="form-control" type="text" placeholder="Введите игру">
+            <input class="form-control" type="text" placeholder="Введите игру">
         <i class="bx bx-search"></i>
         </div>
            </div>
@@ -90,38 +93,38 @@
                         </a>
 
                         <a href="https://www.hltv.org/" target="_blank">
-                                <div class="mobile_item mobile_item_1">
+                                <div class="mobile_item mobile_item_2">
                                 <div class="mobile__item_subtitle"></div>
                                 <div class="mobile__item_plus"></div>
                             </div>
                         </a>
 
                         <a href="https://www.hltv.org/" target="_blank">
-                                <div class="mobile_item mobile_item_1">
+                                <div class="mobile_item mobile_item_3">
                                 <div class="mobile__item_subtitle"></div>
                                 <div class="mobile__item_plus"></div>
                             </div>
                         </a>
                         <a href="https://www.hltv.org/" target="_blank">
-                                <div class="mobile_item mobile_item_1">
+                                <div class="mobile_item mobile_item_4">
                                 <div class="mobile__item_subtitle"></div>
                                 <div class="mobile__item_plus"></div>
                             </div>
                         </a>
                         <a href="https://www.hltv.org/" target="_blank">
-                            <div class="mobile_item mobile_item_1">
+                            <div class="mobile_item mobile_item_5">
                             <div class="mobile__item_subtitle"></div>
                             <div class="mobile__item_plus"></div>
                         </div>
                     </a>
                     <a href="https://www.hltv.org/" target="_blank">
-                        <div class="mobile_item mobile_item_1">
+                        <div class="mobile_item mobile_item_6">
                         <div class="mobile__item_subtitle"></div>
                         <div class="mobile__item_plus"></div>
                         </div>
                     </a>
                     <a href="https://www.hltv.org/" target="_blank">
-                        <div class="mobile_item mobile_item_1">
+                        <div class="mobile_item mobile_item_7">
                         <div class="mobile__item_subtitle"></div>
                         <div class="mobile__item_plus"></div>
                         </div>
@@ -130,49 +133,50 @@
 
                    <div class="mobile__inner">
                         <a href="https://www.hltv.org/" target="_blank">
-                                <div class="mobile_item mobile_item_1">
+                                <div class="mobile_item mobile_item_8">
                                 <div class="mobile__item_subtitle"></div>
                                 <div class="mobile__item_plus"></div>
                             </div>
                         </a>
 
                         <a href="https://www.hltv.org/" target="_blank">
-                                <div class="mobile_item mobile_item_1">
+                                <div class="mobile_item mobile_item_9">
                                 <div class="mobile__item_subtitle"></div>
                                 <div class="mobile__item_plus"></div>
                             </div>
                         </a>
 
                         <a href="https://www.hltv.org/" target="_blank">
-                                <div class="mobile_item mobile_item_1">
+                                <div class="mobile_item mobile_item_10">
                                 <div class="mobile__item_subtitle"></div>
                                 <div class="mobile__item_plus"></div>
                             </div>
                         </a>
                         <a href="https://www.hltv.org/" target="_blank">
-                                <div class="mobile_item mobile_item_1">
+                                <div class="mobile_item mobile_item_11">
                                 <div class="mobile__item_subtitle"></div>
                                 <div class="mobile__item_plus"></div>
                             </div>
                         </a>
                         <a href="https://www.hltv.org/" target="_blank">
-                            <div class="mobile_item mobile_item_1">
+                            <div class="mobile_item mobile_item_12">
                             <div class="mobile__item_subtitle"></div>
                             <div class="mobile__item_plus"></div>
                         </div>
                     </a>
                     <a href="https://www.hltv.org/" target="_blank">
-                        <div class="mobile_item mobile_item_1">
+                        <div class="mobile_item mobile_item_13">
                         <div class="mobile__item_subtitle"></div>
                         <div class="mobile__item_plus"></div>
                         </div>
                     </a>
                     <a href="https://www.hltv.org/" target="_blank">
-                        <div class="mobile_item mobile_item_1">
+                        <div class="mobile_item mobile_item_14">
                         <div class="mobile__item_subtitle"></div>
                         <div class="mobile__item_plus"></div>
                         </div>
                     </a>
+                    
                    </div>
 
             </div>
@@ -234,24 +238,27 @@
    <footer class="footer">
         <div class="container-fluid">
             <nav class="nav d-flex">
-                <ul class="nav__item d-flex">
-                    <li class="nav__list">
-                        <a href="#" class="nav__link">Условия использования</a>
-                    </li>
-                    <li class="nav__list">
-                        <a href="#" class="nav__link">Политика приватности</a>
-                    </li>
-                    <li class="nav__list">
-                        <a href="#" class="nav__link">Статистика</a>
-                    </li>
-                    <li class="nav__list">
-                        <a href="#" class="nav__link">Правила</a>
-                    </li>
+                <ul class="menu d-flex">
+                                <li class="menu__list">
+                                    <a href="#mobile" class="menu__link lang" key="Sell">тест</a>
+                                </li>
+                                <li class="menu__list">
+                                    <a href="#" class="menu__link lang" key="Reviews">тест</a>
+                                </li>
+                                <li class="menu__list">
+                                    <a href="#" class="menu__link lang" key="Guarantees">тест</a>
+                                </li>
+                                <li class="menu__list">
+                                    <a href="#" class="menu__link lang" key="freebie">тест</a>
+                                </li>
+                                <li class="menu__list">
+                                    <a href="#" class="menu__link lang" key="help">тест</a>
+                                </li>
                 </ul>
 
-                 <div class="footer__logo">
-                    <img src="img/logo.p1ng" alt="#" width="234px" height="27px">
-                </div> 
+                <div class="header__logo">
+                        <img src="/img/cs_money-loog 1.pn" alt="logo" class="logo">
+                </div>
 
                 <div class="footer__social">
                     <a href="https://www.youtube.com/channel/UC0sBKyWHJjJPHJaoey2gXCg" target="_blank" class="footer__item">

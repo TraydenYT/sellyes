@@ -1,5 +1,6 @@
 *
     font-family: 'Rubik', sans-serif
+    
 ul,li
     margin: 0
     padding: 0
@@ -10,11 +11,11 @@ ul,li
     align-items: center
 // Начало [вверх]
 .promo
-    min-height: 1
+    min-height: 100vh
     padding: 16px 100px 115px 100px
     background-color: $body
     &__left
-        padding-top: 388px
+        margin-top: 300px
     &__header
         width: 690px
         height: 124px
@@ -41,12 +42,13 @@ ul,li
 
 .mobile
     min-height: 1114px
-    background-color: #fff
+    background-color: #F2F4F7
     padding: 43px 100px
     &__inner
         display: inline-flex
         justify-content: space-between
         align-items: center
+        margin-top: 33px
     &__label
         color: $main-color
         font-weight: 700
@@ -54,6 +56,7 @@ ul,li
         text-align: center
         text-transform: uppercase
         line-height: 33px
+        margin-top: 87px
     &__subtitle
         display: block
         margin: 0 auto
@@ -67,7 +70,7 @@ ul,li
         text-transform: uppercase
         margin-top: 11px
     &_item
-        width: 200px
+        width: 230px
         height: 142px
         margin: 6px auto
         border-radius: 10px
@@ -77,6 +80,28 @@ ul,li
             background: url('../img/games/rust.jpg') center (center/cover) no-repeat
         &_3
             background: url('../img/games/dota2_social.jpg') center (center/cover) no-repeat
+        &_4
+            background: url('../img/games/AmongUs.jpg') center (center/cover) no-repeat
+        &_5
+            background: url('../img/games/BrawlStars.jpg') center (center/cover) no-repeat
+        &_6
+            background: url('../img/games/Chivalry2.jpg') center (center/cover) no-repeat
+        &_7
+            background: url('../img/games/cyberpank.jpg') center (center/cover) no-repeat
+        &_8
+            background: url('../img/games/DayZ.jpg') center (center/cover) no-repeat 
+        &_9
+            background: url('../img/games/Destiny-2.jpg') center (center/cover) no-repeat
+        &_10
+            background: url('../img/games/Diablo.jpg') center (center/cover) no-repeat
+        &_11
+            background: url('../img/games/eFootballPES.jpg') center (center/cover) no-repeat
+        &_12
+            background: url('../img/games/FarCry.jpg') center (center/cover) no-repeat
+        &_13
+            background: url('../img/games/fort.jpg') center (center/cover) no-repeat
+        &_14
+            background: url('../img/games/gta5.jpg') center (center/cover) no-repeat
 
 // Секция - [inner]
 .inner
@@ -142,27 +167,27 @@ ul,li
         font-size: 24px
         line-height: 28px
         margin-top: 62px
-        color: #000  
+        color: #00ff0d  
 
 // footer - [footer]
-.footer
-    background-color: $main-color
-    height: 95px
-    padding: 40px 100px
 
-//Поиск
+
+
 .form-inputs
     position: relative
-
+    margin-top: 14px
+    i
+        position:absolute
+        right:10px
+        top:15px 
 .form-inputs .form-control
     height: 45px
     width: 40%
+    background-color: #fff
+    border: none
     border-radius: 10px
     margin-left: auto
 
-.from-inputs i
-    position:absolute
-    right:10px
-    top:15px   
+
 
 
