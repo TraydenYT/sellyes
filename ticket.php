@@ -21,7 +21,7 @@
                         <nav class="nav">
                             <ul class="menu d-flex">
                                 <li class="menu__list">
-                                    <a href="index.html" class="menu__link lang" key="Sell">Главная</a>
+                                    <a href="index.php" class="menu__link lang" key="Sell">Главная</a>
                                 </li>
                                 <li class="menu__list">
                                     <a href="#" class="menu__link lang" key="Reviews">Отзывы</a>
@@ -48,7 +48,7 @@
                                 <li class="header-item-lang-en"><button id="en" class="translate"><img src="img/icons/en.png" alt="#"></button></li>
                                 <li class="header-item-lang-ru"><button id="ru" class="translate"><img src="img/icons/197408 1.png" alt="#"></button></li>
                             </div>
-                            <button class="button lang" key="Authorization" onclick="window.location.href='./registration.html'">Авторизация</button>
+                            <button class="button lang" key="Authorization" onclick="window.location.href='./registration.php'">Авторизация</button>
                         </ul>
                     </div>
                    
