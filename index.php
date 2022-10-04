@@ -33,7 +33,7 @@
                                     <a href="#" class="menu__link lang" key="freebie">Помощь</a>
                                 </li>
                                 <li class="menu__list">
-                                    <a href="ticket.html" class="menu__link lang" key="help">Оставить тикет</a>
+                                    <a href="ticket.php" class="menu__link lang" key="help">Оставить тикет</a>
                                 </li>
                             </ul>
                         </nav>
@@ -48,7 +48,7 @@
                                 <li class="header-item-lang-en"><button id="en" class="translate"><img src="img/icons/en.png" alt="#"></button></li>
                                 <li class="header-item-lang-ru"><button id="ru" class="translate"><img src="img/icons/197408 1.png" alt="#"></button></li>
                             </div>
-                            <button class="button lang" key="Authorization" onclick="window.location.href='./registration.html'">Авторизация</button>
+                            <button class="button lang" key="Authorization" onclick="window.location.href='./registration.php'">Авторизация</button>
                         </ul>
                     </div>
                    
@@ -259,7 +259,7 @@
                                     <a href="#" class="menu__link lang footer__list" key="freebie">Вакансии</a>
                                 </li>
                                 <li class="menu__list">
-                                    <a href="ticket.html" class="menu__link lang footer__list" key="help">Оставить тикет</a>
+                                    <a href="ticket.php" class="menu__link lang footer__list" key="help">Оставить тикет</a>
                                 </li>
                 </ul>
 
