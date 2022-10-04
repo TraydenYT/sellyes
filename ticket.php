@@ -21,7 +21,7 @@
                         <nav class="nav">
                             <ul class="menu d-flex">
                                 <li class="menu__list">
-                                    <a href="index.html" class="menu__link lang" key="Sell">Главная</a>
+                                    <a href="index.php" class="menu__link lang" key="Sell">Главная</a>
                                 </li>
                                 <li class="menu__list">
                                     <a href="#" class="menu__link lang" key="Reviews">Отзывы</a>
