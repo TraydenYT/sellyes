@@ -52,18 +52,32 @@
                         </ul>
                     </div>
             </header>  
+
+            <script>
+                document.querySelectorAll('.accordion').forEach((el) => {
+                    el.addEventListener('click', () => {
+                
+                    let content = el.nextElementSibling;
+                    console.log(content)
+
+                    if(content.style.maxHeight){
+                        documeny.querySelectorAll('.content').forEach((el) => el.style.maxHeight = null)
+                    }else{
+                        document.querySelectorAll('.content').forEach((el) => el.style.maxHeight = null)
+                        content.style.maxHeight = content.srollHeight + 'px'
+                    }
+            })
+        })
+            </script>
             
-            <div class="help">
-                <div data-spoIler data-one-spoIler class="block block1">
-                    <div class="block__item">
-                        <button tabindex="-1" type="button" data-spoIler class="block__titel">Обычный спойлер 1</button>
-                        <div class="block__text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam reiciendis asperiores eligendi dolor iure nemo?
-                             Possimus quaerat itaque vero sunt aspernatur, iste doloremque, iusto quos beatae at aut voluptatibus eligendi?
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="accordion">button</div>
+            <div class="content">Lorem ipsum, dolor sit amet .</div>
+
+            <div class="accordion">button2</div>
+            <div class="content">Lorem ipsum, dolor sit amet .</div>
+
+            <div class="accordion">button3</div>
+            <div class="content">Lorem ipsum, dolor sit amet .</div>
 
             
     </section>
