@@ -33,7 +33,7 @@
                                     <a href="help.php" class="menu__link lang" key="freebie">Помощь</a>
                                 </li>
                                 <li class="menu__list">
-                                    <a href="ticket.html" class="menu__link lang" key="help">Оставить тикет</a>
+                                    <a href="ticket.php" class="menu__link lang" key="help">Оставить тикет</a>
                                 </li>
                             </ul>
                         </nav>
