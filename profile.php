@@ -55,8 +55,8 @@
                     </div>
                    
             </header>
-   
-            <section class="page-section">
+         
+            <section class="page__section">
                     <div class="wrap container">
                         <div class="row profile">
                             <div class="col-lg-3 col-md-3">
