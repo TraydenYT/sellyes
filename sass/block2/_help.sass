@@ -1,9 +1,48 @@
-.accordion 
-    transporent: 0.3s ease-in-out
-	border: 2px dashed #ccc 
-	padding: 20px 
-.content 
-	max-height: 0 
-	overflow: hidden 
 
-        
+
+.accardion
+    margin-top: 100px
+    &__title 
+        color: #fff
+        font-size: 20px
+        font-weight: 700
+        text-align: center
+        text-transform: uppercase
+.box
+    display: block
+    margin: 20px auto
+    position: relative
+    margin-bottom: 20px
+    &:active
+        content: "-"
+    &:last-child
+        margin-bottom: 0px
+.container
+    padding: 30px
+    
+.label
+    position: relative
+    padding: 20px
+    background-color: $btn
+    color: #fff
+    cursor: pointer
+    border-radius: 5px
+    box-shadow: 0px 4px 0px #4a643c
+    &:active
+        content: "-"
+    &::after
+        content: "+"
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        right: 20px
+        font-size: 25px
+        font-weight: bold      
+.content
+    position: relative
+    background-color: #fff
+    overflow: hidden
+    max-height: 0
+    transition: .3s
+    p
+        padding: 20px

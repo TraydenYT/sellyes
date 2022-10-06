@@ -111,20 +111,26 @@ document.addEventListener('DOMContentLoaded', function (){
             
         }
 });
+    ////аккордион
+    const boxes = Array.from(document.querySelectorAll(".box"));
 
-        //аккордион
-        document.querySelectorAll('.accordion').forEach((el) => {
-            el.addEventListener('click', () => {
-        
-            let content = el.nextElementSibling;
-            console.log(content)
+    boxes.forEach((box) => {
+        box.addEventListener("click", boxHandler);
+    });
 
-            document.querySelectorAll('.content').forEach((el) => el.style.maxHeight = null)
-            if(!content.style.maxHeight){
-                content.style.maxHeight = content.scrollHeight + 'px'
-            }
-        })
-    })
+    function boxHandler(e) {
+        e.preventDefault();
+        let currentBox = e.target.closest(".box");
+        let currentContent = e.target.nextElementSibling;
+        currentBox.classList.toggle("active");
+        //При нажатие на бокс он раскрывался
+        if(currentBox.classList.contains("active")){
+            currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+        }else{
+            currentContent.style.maxHeight = 0;
+        }
+    }
+
 
 
 
