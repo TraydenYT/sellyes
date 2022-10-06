@@ -65,6 +65,18 @@
                                     <div class="information-title">
                                         Мой профиль
                                     </div>
+                                    <ul class="pleft_nav">
+                                        <a class="pnav_info" href="#"><li class=""active>Предметы в продаже</li></a>
+                                        <a class="pnav_reviews" href="#"><li class=""active>Отзывы</li></a>
+                                        <a class="pnav_buy" href="#"><li class=""active>Покупки/Продажи</li></a>
+                                        <a class="pnav_finance" href="#"><li class=""active>Финансы</li></a>
+                                        <a class="pnav_connection" href="#"><li class=""active>Связаться с продавцом</li></a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div id="profile_content">
+
                                 </div>
                             </div>
                         </div>
