@@ -59,8 +59,8 @@
                 <div class="tab" role="tabpanel">
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab""<?php echo BEZ_HOST; ?>registration/?mode=auth">Вход</a></li>
-                    <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab" "<?php echo BEZ_HOST; ?>registration/?mode=reg">Регистрация</a></li>
+                    <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Вход</a></li>
+                    <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Регистрация</a></li>
                 </ul>
                 <!-- Tab panes -->
                 <div class="tab-content tabs ">
@@ -103,11 +103,6 @@
                 </div>
             </form>
             </div>
-        </div>
-        <div id="content">
-            <?php
-                $content
-            ?>
         </div>
     </div>
 

@@ -5,7 +5,7 @@
 
      ////Ключ защиты
 	 if(!defined('CSGO_KEY')){
-		header("HTTP/1.1 404 Not Found")
+		header("HTTP/1.1 404 Not Found");
 		exit(file_get_contents('./404.php'));
 	 }
 
