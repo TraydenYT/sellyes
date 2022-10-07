@@ -13,10 +13,10 @@
 	 define('DBSERVER','localhost')
 
 	 //Логин БД
-	 define('DBUSER','mysql')
+	 define('DBUSER',',mysql')
 
 	 //Пароль БД
-	 define('DBPASSWORD','mysql')
+	 define('DBPASSWORD','')
 
 	 //БД
 	 define('DATABASE', 'sallyes');
