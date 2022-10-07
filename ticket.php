@@ -30,7 +30,7 @@
                                     <a href="#" class="menu__link lang" key="Guarantees">Гарантии</a>
                                 </li>
                                 <li class="menu__list">
-                                    <a href="#" class="menu__link lang" key="freebie">Помощь</a>
+                                    <a href="help.php" class="menu__link lang" key="freebie">Помощь</a>
                                 </li>
                                 <li class="menu__list">
                                     <a href="#" class="menu__link lang" key="help">Оставить тикет</a>
@@ -56,7 +56,7 @@
 
             <div class="wrapper">
                 <div class="form">
-                    <form action="#" id="form" class="form__body">
+                    <form action="mail.php" method="POST" id="form" class="form__body">
                         <h1 class="form__title">Написать в службу поддержки</h1>
                         <div class="form__item">
                             <label for="formName" class="form__label _error">Имя*:</label>

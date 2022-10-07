@@ -16,14 +16,14 @@
 
 </head>
 <body>
-<section class="promo">
+<section class="promo promo__darktitle">
         <div class="container-fluid">
             <header class="header d-flex">
                     <div class="header_navigation">
                         <nav class="nav">
                             <ul class="menu d-flex">
                                 <li class="menu__list">
-                                    <a href="#mobile" class="menu__link lang" key="Sell">Продать</a>
+                                    <a href="index.php" class="menu__link lang" key="Sell">Главная</a>
                                 </li>
                                 <li class="menu__list">
                                     <a href="#" class="menu__link lang" key="Reviews">Отзывы</a>
@@ -56,32 +56,58 @@
                    
             </header>
          
-            <section class="page__section">
-                    <div class="wrap container">
-                        <div class="row profile">
-                            <div class="col-lg-3 col-md-3">
-                                <input type="hidden" id="state" value="normal" />
-                                <div class="widget account-details">
-                                    <div class="information-title">
-                                        Мой профиль
+            <section class="profile">
+                    <div class="profile__info">
+                        <div class="profile__left">
+                            <div class="profile__title">Профиль</div>
+                                <div class="profile__person">
+                                    <div class="profile__avatar">
+                                        <img src="img/xterian.png" alt="#">
                                     </div>
-                                    <ul class="pleft_nav">
-                                        <a class="pnav_info" href="#"><li class=""active>Предметы в продаже</li></a>
-                                        <a class="pnav_reviews" href="#"><li class=""active>Отзывы</li></a>
-                                        <a class="pnav_buy" href="#"><li class=""active>Покупки/Продажи</li></a>
-                                        <a class="pnav_finance" href="#"><li class=""active>Финансы</li></a>
-                                        <a class="pnav_connection" href="#"><li class=""active>Связаться с продавцом</li></a>
-                                    </ul>
+                                    <div class="profile__data">
+                                        <p>XTERIAN</p>
+                                        <p><span>Steam ID :</span> 76561198130814080</p>
+                                        <p>Баланс:</p>
+                                        <p>Р 0.00</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-9 col-md-9">
-                                <div id="profile_content">
-
-                                </div>
-                            </div>
+                        </div>
+                        <div class="profile__right">
+                            2
                         </div>
                     </div>
-                </section>
+
+                    <div class="line"></div>
+
+                    <div class="sell">
+                        <div class="sell__left">
+                            <div class="sell__menu">
+                                <ul class="sell__menu">
+                                    <li class="sell__list">
+                                        <img src="#" alt="#"><a href="#" class="sell__link">Предметы в продаже</a>
+                                    </li>
+                                    <li class="sell__list">
+                                        <img src="#" alt="#"><a href="#" class="sell__link">Отзывы о продавце</a>
+                                    </li>
+                                    <li class="sell__list">
+                                        <img src="#" alt="#"><a href="#" class="sell__link">Покупки / Продажи</a>
+                                    </li>
+                                    <li class="sell__list">
+                                        <img src="#" alt="#"><a href="#" class="sell__link">Финансы</a>
+                                    </li>
+                                    <li class="sell__list">
+                                        <img src="#" alt="#"><a href="#" class="sell__link">Связаться с продавцом</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sell__right">
+                            2
+                        </div>
+                    </div>
+            </section>
+            
+
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
