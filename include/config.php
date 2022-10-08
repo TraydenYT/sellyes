@@ -5,21 +5,21 @@
 
 	 //Ключ защиты
 	 if(!defined('CSGO_KEY')){
-		header("HTTP/1.1 404 Not Found")
+		header("HTTP/1.1 404 Not Found");
 		exit(file_get_contents('./404.php'));
 	 }
 
 	 //Адрес БД
-	 define('DBSERVER','localhost')
+	 define('DBSERVER','localhost');
 
 	 //Логин БД
-	 define('DBUSER',',mysql')
+	 define('DBUSER','mysql');
 
 	 //Пароль БД
-	 define('DBPASSWORD','')
+	 define('DBPASSWORD','mysql');
 
 	 //БД
-	 define('DATABASE', 'sallyes');
+	 define('DATABASE', 'sellyes');
 	 
 	 //Errors
      define('ERROR_CONNECT','Немогу соеденится с БД');

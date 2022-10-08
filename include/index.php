@@ -8,7 +8,7 @@
      session_start();
 
      //Установим кодировку и вывод всех ошибок
-     header('Content-Type: text/html; charset=UTF8')
+     header('Content-Type: text/html; charset=UTF8');
      error_reporting(E_ALL);
 
      //Включаем буферизацию содержимого
@@ -22,21 +22,31 @@
     //Устанавливаем ключ защиты
     define('CSGO_KEY', true);
 
+    //Подключаем конфигурационный файл
+    include './config.php';
+
     //Подключаем Mysql
     include './bd.php';
 
-    //Подключаем конфигурационный файл
-    include './config.php'
-
     //Подключаем скрипт с функциями
-    include './funct/funct.js'
+    include './funct/funct.js';
     
-    switch($mode){
-        //Подключаем обработчик с формой регистрации и авторизации
-        case 'reg_avt'
-        include '../registration.php'
-        break;
-    }
+    switch($mode)
+	{
+		//Подключаем обработчик с формой регистрации
+		case 'reg':
+			include '../registration.php';
+			include './reg/reg.php';
+		break;
+		
+		//Подключаем обработчик с формой авторизации
+		case 'auth':
+			include '../registration.php';
+			include './auth/auth.php';
+			include '<div class="">auth/show.php';
+		break;
+    
+	}
 
     //Получаем данные буфера
     $content=ob_get_contents();
