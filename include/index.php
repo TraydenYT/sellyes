@@ -53,5 +53,5 @@
     ob_end_clean();
 
     //Подключаем наш шаблон
-    include '../registration.php'
+    include './registration.php';
 ?>

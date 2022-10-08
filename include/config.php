@@ -19,7 +19,10 @@
 	 define('DBPASSWORD','mysql');
 
 	 //БД
-	 define('DATABASE', 'sellyes');
+	 define('DATABASE', 'sell_reg');
+
+	 //Префикс
+	 define('DBPREFIX','sell_');
 	 
 	 //Errors
      define('ERROR_CONNECT','Немогу соеденится с БД');

@@ -1,3 +1,11 @@
+<?php
+    session_start();
+
+    include_once("./include/index.php");
+    include("./include/bd.php");
+    include("./include/404.php");
+    include("./include/funct/funct.php");
+?>
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -25,7 +33,7 @@
 
       <section class="block__item block-item">
         <h2 class="block-item__title">У вас уже есть аккаунт?</h2>
-        <button class="block-item__btn signin-btn">Войти</button>
+        <button class="block-item__btn signin-btn"><a href="<?php echo HOST; ?>?mode=auth"></a>Войти</button>
       </section>
       <section class="block__item block-item">
         <h2 class="block-item__title">У вас нет аккаунта?</h2>
@@ -38,7 +46,7 @@
     <div class="form-box">
 
       <!-- Форма входа -->
-      <form action="#" class="form form_signin">
+      <form action="#" class="form form_signin" method="POST">
         <h3 class="form__title">Вход</h3>
 
         <p>
@@ -56,7 +64,7 @@
       </form>
 
       <!-- Форма регистрации -->
-      <form action="#" class="form form_signup">
+      <form action="#" class="form form_signup" method="POST">
         <h3 class="form__title">Регистрация</h3>
 
         <p>
@@ -72,11 +80,15 @@
           <input type="password" class="form__input" placeholder="Подтвердите пароль">
         </p>
         <p>
-          <button class="form__btn form__btn_signup">Зарегистрироваться</button>
+          <button class="form__btn form__btn_signup"><a href="<?php echo HOST; ?>?mode=auth"></a>Зарегистрироваться</button>
         </p>
       </form>
 
     </div>
+
+    <div id="content">
+		<?php echo $content; ?>
+	</div>
 
   </article>
 
