@@ -35,6 +35,7 @@
                                 <li class="menu__list">
                                     <a href="ticket.php" class="menu__link lang" key="help">Оставить тикет</a>
                                 </li>
+                                
                             </ul>
                         </nav>
                     </div>
@@ -175,7 +176,7 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
+    <script src="s/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

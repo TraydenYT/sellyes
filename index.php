@@ -35,6 +35,9 @@
                                 <li class="menu__list">
                                     <a href="ticket.php" class="menu__link lang" key="help">Оставить тикет</a>
                                 </li>
+                                <li class="menu__list">
+                                    <a href="profile.php" class="menu__link lang" key="help">ЛК</a>
+                                </li>
                             </ul>
                         </nav>
                     </div>

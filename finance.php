@@ -84,19 +84,19 @@
                             <div class="sell__menu">
                                 <ul class="sell__menu">
                                     <li class="sell__list">
-                                        <img src="img/icons/en.png" alt="#"><a href="profile.php" class="sell__link">Предметы в продаже</a>
+                                        <img src="#" alt="#"><a href="#" class="sell__link">Предметы в продаже</a>
                                     </li>
                                     <li class="sell__list">
-                                        <img src="img/icons/en.png" alt="#"><a href="reviews.php" class="sell__link">Отзывы о продавце</a>
+                                        <img src="#" alt="#"><a href="#" class="sell__link">Отзывы о продавце</a>
                                     </li>
                                     <li class="sell__list">
-                                        <img src="img/icons/en.png" alt="#"><a href="sell.php" class="sell__link">Покупки / Продажи</a>
+                                        <img src="#" alt="#"><a href="#" class="sell__link">Покупки / Продажи</a>
                                     </li>
                                     <li class="sell__list">
-                                        <img src="img/icons/en.png" alt="#"><a href="finance.php" class="sell__link">Финансы</a>
+                                        <img src="#" alt="#"><a href="#" class="sell__link">Финансы</a>
                                     </li>
                                     <li class="sell__list">
-                                        <img src="img/icons/en.png" alt="#"><a href="#" class="sell__link">Связаться с продавцом</a>
+                                        <img src="#" alt="#"><a href="#" class="sell__link">Связаться с продавцом</a>
                                     </li>
                                 </ul>
                             </div>
