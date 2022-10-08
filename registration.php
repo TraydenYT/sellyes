@@ -1,118 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SELLYES</title>
+    <link rel="shortcut icon" href="img/icons/favicon.ico" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css"> 
     <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-    
-
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/9314941886.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<section class="promo">
-        <div class="container-fluid">
-            <header class="header d-flex">
-                    <div class="header_navigation">
-                        <nav class="nav">
-                            <ul class="menu d-flex">
-                                <li class="menu__list">
-                                    <a href="index.php" class="menu__link lang" key="Sell">Главная</a>
-                                </li>
-                                <li class="menu__list">
-                                    <a href="" class="menu__link lang" key="Reviews">Отзывы</a>
-                                </li>
-                                <li class="menu__list">
-                                    <a href="#" class="menu__link lang" key="Guarantees">Гарантии</a>
-                                </li>
-                                <li class="menu__list">
-                                    <a href="#" class="menu__link lang" key="freebie">Помощь</a>
-                                </li>
-                                <li class="menu__list">
-                                    <a href="ticket.php" class="menu__link lang" key="help">Оставить тикет</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
 
-                    <div class="header__contacts">
-                        <ul class="d-flex">
-                            <div class="header__lan d-flex">
-                                <li class="header-item-lang-en"><button id="en" class="translate"><img src="img/icons/en.png" alt="#"></button></li>
-                                <li class="header-item-lang-ru"><button id="ru" class="translate"><img src="img/icons/197408 1.png" alt="#"></button></li>
-                            </div>
-                            <button class="button lang" key="Authorization" onclick="window.location.href='./registration.php'">Авторизация</button>
-                        </ul>
-                    </div>  
-            </header>
+  <!-- Контейнер -->
+  <article class="container">
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-offset-3 col-md-6">
+    <!-- Внутренний блок -->
+    <div class="block">
 
-                <div class="tab" role="tabpanel">
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Вход</a></li>
-                    <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Регистрация</a></li>
-                </ul>
-                <!-- Tab panes -->
-                <div class="tab-content tabs ">
-                <div role="tabpanel" class="tab-pane fade in active" id="Section1">
-            <form class="form-horizontal">
-                <div class="form-group">
-                    <input type="email" placeholder="Email или никнейм" class="form-control" id="exampleInputEmail1">
-                </div>
-                <div class="form-group">
-                    <input type="password" placeholder="Пароль" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="form-group">
-                <div class="main-checkbox">
-                    <input value="None" id="checkbox1" name="check" type="checkbox">
-                    <label for="checkbox1"></label>
-                </div>
-                    <span class="text">Запомнить</span>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-default">Вход</button>
-                </div>
-                <div class="form-group forgot-pass">
-                    <button type="submit" class="btn btn-default">Забыли пароль</button>
-                </div>
-                </form>
-                </div>
-                <div role="tabpanel" class="tab-pane fade" id="Section2">
-                    <form class="form-horizontal">
-                <div class="form-group">
-                    <input type="email" placeholder="Email"  class="form-control" id="exampleInputEmail1">
-                </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Никнейм"  class="form-control" id="exampleInputEmail1">
-                </div>
-                <div class="form-group">
-                    <input type="password" placeholder="Пароль"  class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-default">Регистрация</button>
-                </div>
-            </form>
-            </div>
-        </div>
+      <section class="block__item block-item">
+        <h2 class="block-item__title">У вас уже есть аккаунт?</h2>
+        <button class="block-item__btn signin-btn">Войти</button>
+      </section>
+      <section class="block__item block-item">
+        <h2 class="block-item__title">У вас нет аккаунта?</h2>
+        <button class="block-item__btn signup-btn">Зарегистрироваться</button>
+      </section>
+
     </div>
 
-</div><!-- /.col-md-offset-3 col-md-6 -->
-</div><!-- /.row -->
-</div><!-- /.container -->
-        
+    <!-- Блок формы -->
+    <div class="form-box">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!-- Форма входа -->
+      <form action="#" class="form form_signin">
+        <h3 class="form__title">Вход</h3>
+
+        <p>
+          <input type="text" class="form__input" placeholder="Логин">
+        </p>
+        <p>
+          <input type="password" class="form__input" placeholder="Пароль">
+        </p>
+        <p>
+          <button class="form__btn">Войти</button>
+        </p>
+        <p>
+          <a href="#" class="form__forgot">Восстановить пароль</a>
+        </p>
+      </form>
+
+      <!-- Форма регистрации -->
+      <form action="#" class="form form_signup">
+        <h3 class="form__title">Регистрация</h3>
+
+        <p>
+          <input type="text" class="form__input" placeholder="Логин">
+        </p>
+        <p>
+          <input type="email" class="form__input" placeholder="Email">
+        </p>
+        <p>
+          <input type="password" class="form__input" placeholder="Пароль">
+        </p>
+        <p>
+          <input type="password" class="form__input" placeholder="Подтвердите пароль">
+        </p>
+        <p>
+          <button class="form__btn form__btn_signup">Зарегистрироваться</button>
+        </p>
+      </form>
+
+    </div>
+
+  </article>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/jquery.min.js"></script>
+    <script src="s/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
