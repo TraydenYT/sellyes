@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-      <section id="up" class="promo">
+      <section class="promo">
         <div class="container-fluid">
             <header class="header d-flex">
                     <div class="header_navigation">
@@ -478,11 +478,6 @@
             </nav>
         </div>
    </footer>
-
-    <!-- /// Скролл вверх -->
-    <a href="#up" class="pageup">
-        <img src="img/icons/up.png" alt="">
-    </a>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
