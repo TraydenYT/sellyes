@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function (){
         }else{
             currentContent.style.maxHeight = 0;
         }
-    }
+    
 //////////////////////////////////////////////////////////registration///////////////////////////////////////////////////////////////////////////
 
     const signInBtn = document.querySelector('.signin-btn');
@@ -146,7 +146,16 @@ document.addEventListener('DOMContentLoaded', function (){
     formBox.classList.remove('active');
     body.classList.remove('active');
     });
+} // Возможно ошибка [Ошибка]
+//////////////////////////////////////////////////////////Скролл вверх////////////////////////////////////////////////////////
 
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 1000) {
+            $('.pageup').fadeIn();
+        } else {
+            $('.pageup').fadeOut();
+        }
+    });
 
 
 

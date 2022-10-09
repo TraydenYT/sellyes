@@ -11,18 +11,18 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css"> 
     <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
     <script src="https://kit.fontawesome.com/9314941886.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="body">
 
   <!-- Контейнер -->
   <article class="container">
 
     <!-- Внутренний блок -->
     <div class="block">
-
+      <div class="block__close"><a href="index.php">&times;</a></div>
       <section class="block__item block-item">
         <h2 class="block-item__title">У вас уже есть аккаунт?</h2>
         <button class="block-item__btn signin-btn">Войти</button>
