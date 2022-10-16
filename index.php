@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css"> 
     <link rel="stylesheet" href="css/slick.css">
-    <script src="https://kit.fontawesome.com/9314941886.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://kit.fontawesome.com/9314941886.js" crossorigin="anonymous"></script>
 </head>
 <body>
-      <section id="up" class="promo">
+       <section id="up" class="promo">
         <div class="container-fluid">
             <header class="header d-flex">
                     <div class="header_navigation">
@@ -24,7 +24,7 @@
                                     <a href="#mobile" class="menu__link lang" key="Sell">Продать</a>
                                 </li>
                                 <li class="menu__list">
-                                    <a href="#" class="menu__link lang" key="Reviews">Отзывы</a>
+                                    <a href="https://vk.com/public208081279" target="_blank" class="menu__link lang" key="Reviews">Отзывы</a>
                                 </li>
                                 <li class="menu__list">
                                     <a href="#" class="menu__link lang" key="Guarantees">Гарантии</a>
@@ -42,7 +42,7 @@
                         </nav>
                     </div>
                     <div class="header__logo">
-                        <img src="/img/cs_money-loog 1.pn" alt="logo" class="logo">
+                        <img src="/img/logo.png" alt="logo" class="logo">
                     </div>
 
                     <div class="header__contacts">
@@ -68,10 +68,24 @@
                         </div>
                     </div>
                 </div> 
+                <div class="promo__right">
+                    <div class="promo__information">
+                        <div class="promo__knife1">
+                            <img src="img/knife1.png" alt="knife1">
+                        </div>
+                        <div class="promo__trunspilot">
+                            <img src="img/trustpilot.png" alt="knife1">
+                        </div>
+                        <div class="promo__knife2">
+                            <img src="img/knife2.png" alt="knife1">
+                        </div>
+                        
+                    </div>
+                </div>
                  
             </div>
         </div>
-    </section>
+    </section> 
 
     <section class="mobile" id="mobile">
         <div class="container-fluid">
@@ -83,12 +97,12 @@
         <div class="col-md-8">
             <div class="d-flex form-inputs">
                 <input class="form-control" type="text" placeholder="Введите игру">
-                <i class="bx bx-search"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
         <div class="row">
             <div class="mobile__inner">
-                <a href="https://www.hltv.org/" target="_blank">
+                <a href="Marketplace.php" target="_blank">
                     <div class="mobile_item mobile_item_1">
                         <div class="mobile__item_subtitle">
                             <div class="mobile__item_plus">
@@ -96,7 +110,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://www.hltv.org/" target="_blank">
+                <a href="Marketplace.php" target="_blank">
                     <div class="mobile_item mobile_item_2">
                         <div class="mobile__item_subtitle">
                             <div class="mobile__item_plus">
@@ -104,7 +118,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://www.hltv.org/" target="_blank">
+                <a href="Marketplace.php" target="_blank">
                     <div class="mobile_item mobile_item_3">
                         <div class="mobile__item_subtitle">
                             <div class="mobile__item_plus">
@@ -112,7 +126,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://www.hltv.org/" target="_blank">
+                <a href="Marketplace.php" target="_blank">
                     <div class="mobile_item mobile_item_4">
                         <div class="mobile__item_subtitle">
                             <div class="mobile__item_plus">
@@ -120,7 +134,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://www.hltv.org/" target="_blank">
+                <a href="Marketplace.php" target="_blank">
                     <div class="mobile_item mobile_item_5">
                         <div class="mobile__item_subtitle">
                             <div class="mobile__item_plus">
@@ -128,7 +142,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://www.hltv.org/" target="_blank">
+                <a href="Marketplace.php" target="_blank">
                     <div class="mobile_item mobile_item_6">
                         <div class="mobile__item_subtitle">
                             <div class="mobile__item_plus">
@@ -136,7 +150,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://www.hltv.org/" target="_blank">
+                <a href="Marketplace.php" target="_blank">
                     <div class="mobile_item mobile_item_7">
                         <div class="mobile__item_subtitle">
                             <div class="mobile__item_plus">
@@ -443,10 +457,10 @@
                 <ul class="menu d-flex">
                     
                                 <li class="menu__list">
-                                    <a href="#mobile" class="menu__link lang footer__list" key="Sell">Условия использования</a>
+                                    <a href="#mobile" class="menu__link lang footer__list" key="Sell">Условия</a>
                                 </li>
                                 <li class="menu__list">
-                                    <a href="#" class="menu__link lang footer__list" key="Reviews">Политика приватности</a>
+                                    <a href="#" class="menu__link lang footer__list" key="Reviews">Политика </a>
                                 </li>
                                 <li class="menu__list">
                                     <a href="#" class="menu__link lang footer__list" key="Guarantees">Помощь</a>

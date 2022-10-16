@@ -33,7 +33,7 @@
                                     <a href="help.php" class="menu__link lang" key="freebie">Помощь</a>
                                 </li>
                                 <li class="menu__list">
-                                    <a href="#" class="menu__link lang" key="help">Оставить тикет</a>
+                                    <a href="ticket.php" class="menu__link lang" key="help">Оставить тикет</a>
                                 </li>
                             </ul>
                         </nav>
@@ -55,72 +55,78 @@
             </header>
 
             <div class="wrapper">
-                <div class="form">
-                    <form action="mail.php" method="POST" id="form" class="form__body">
-                        <h1 class="form__title">Написать в службу поддержки</h1>
-                        <div class="form__item">
-                            <label for="formName" class="form__label _error">Имя*:</label>
-                            <input id="formName" type="text" name="name" class="form__input _req">
-                        </div>
-
-                        <div class="form__item">
-                            <label for="formEmail" class="form__label">E-mail*:</label>
-                            <input id="formEmail" type="text" name="email" class="form__input _req _email">
-                        </div>
-
-                        <!-- <div class="form__item">
-                            <div class="form__label">Левша или правша</div>
-                            <div class="options">
-                                <div class="options__items">
-                                    <input id="formRightHanded" checked type="radio" value="right" name="hand" class="options__input">
-                                    <label for="formRightHanded" class="form__label">Правша*:</label>
-                                </div>
-                                <div class="options__items">
-                                    <input id="formLeftHanded" type="radio" value="left" name="hand" class="options__input">
-                                    <label for="formLeftHanded" class="form__label">Левша*:</label>
-                                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-2">
+                            <div class="form">
+                                <form action="mail.php" method="POST" id="form" class="form__body">
+                                    <h1 class="form__titles">Написать в службу поддержки</h1>
+                                    <div class="form__item">
+                                        <label for="formName" class="form__label _error">Имя*:</label>
+                                        <input id="formName" type="text" name="name" class="form__input _req">
+                                    </div>
+            
+                                    <div class="form__item">
+                                        <label for="formEmail" class="form__label">E-mail*:</label>
+                                        <input id="formEmail" type="text" name="email" class="form__input _req _email">
+                                    </div>
+            
+                                    <!-- <div class="form__item">
+                                        <div class="form__label">Левша или правша</div>
+                                        <div class="options">
+                                            <div class="options__items">
+                                                <input id="formRightHanded" checked type="radio" value="right" name="hand" class="options__input">
+                                                <label for="formRightHanded" class="form__label">Правша*:</label>
+                                            </div>
+                                            <div class="options__items">
+                                                <input id="formLeftHanded" type="radio" value="left" name="hand" class="options__input">
+                                                <label for="formLeftHanded" class="form__label">Левша*:</label>
+                                            </div>
+                                        </div>
+                                    </div> -->
+            
+                                    <div class="options__items">
+                                        <label for="formMessage" class="form__label">Сообщение*:</label>
+                                        <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                    </div>
+            
+                                    <div class="form__items">
+                                        <div class="form__label">Возраст</div>
+                                        <select name="age" id="" class="select">
+                                            <option value="1" selected="selected">Выберите тему</option>
+                                            <option value="2">Я оплатил заказа но продавец не отвечает мне</option>
+                                            <option value="3">Я недоволен выполнением заказа</option>
+                                            <option value="4">Платёж с моей стороны не прошел</option>
+                                            <option value="5">Мой аккаунт взломали</option>
+                                            <option value="6">У меня остались вопросы</option>
+                                            <option value="7">Прочее</option>
+                                            <option value="8">Написать администрации</option>
+                                        </select>
+                                    </div>
+            
+                                    <div class="form__item">
+                                        <div class="form__label">Прикрепить фото</div>
+                                        <div class="file">
+                                            <div class="file__item">
+                                                <input id="formImage" accept=".jpg, .png, .git" type="file" name="image" class="file__input">
+                                                <div class="file__button">Выбрать</div>
+                                            </div>
+                                            <div id="formPreview" class="file__preview"></div>
+                                        </div>
+                                    </div>
+            
+                                      <!-- <div class="form__items">
+                                        <div class="checkbox">
+                                            <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input">
+                                            <label for="formAgreement" class="checkbox__label"><span>Я даю своё согласие на обработку данных <a href="#">Условие</a>*</span></label>
+                                        </div>
+                                    </div>  -->
+                                    
+                                    <button type="submit" class="form__button">Отправить</button>
+                                </form>
                             </div>
-                        </div> -->
-
-                        <div class="options__items">
-                            <label for="formMessage" class="form__label">Сообщение*:</label>
-                            <textarea name="message" id="formMessage" class="form__input"></textarea>
                         </div>
-
-                        <div class="form__items">
-                            <div class="form__label">Возраст</div>
-                            <select name="age" id="" class="select">
-                                <option value="1" selected="selected">Выберите тему</option>
-                                <option value="2">Я оплатил заказа но продавец не отвечает мне</option>
-                                <option value="3">Я недоволен выполнением заказа</option>
-                                <option value="4">Платёж с моей стороны не прошел</option>
-                                <option value="5">Мой аккаунт взломали</option>
-                                <option value="6">У меня остались вопросы</option>
-                                <option value="7">Прочее</option>
-                                <option value="8">Написать администрации</option>
-                            </select>
-                        </div>
-
-                        <div class="form__item">
-                            <div class="form__label">Прикрепить фото</div>
-                            <div class="file">
-                                <div class="file__item">
-                                    <input id="formImage" accept=".jpg, .png, .git" type="file" name="image" class="file__input">
-                                    <div class="file__button">Выбрать</div>
-                                </div>
-                                <div id="formPreview" class="file__preview"></div>
-                            </div>
-                        </div>
-
-                          <!-- <div class="form__items">
-                            <div class="checkbox">
-                                <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input">
-                                <label for="formAgreement" class="checkbox__label"><span>Я даю своё согласие на обработку данных <a href="#">Условие</a>*</span></label>
-                            </div>
-                        </div>  -->
-                        
-                        <button type="submit" class="form__button">Отправить</button>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
