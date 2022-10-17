@@ -129,7 +129,7 @@ if(isset($_POST['submit']))
              $stmt->execute();
              
              //Отправляем письмо для активации
-             $url = BEZ_HOST .'?mode=reg&key='. md5($salt);
+             $url = HOST .'?mode=reg&key='. md5($salt);
              $title = 'Регистрация на http://sellyes';
              $message = 'Для активации Вашего акаунта пройдите по ссылке 
              <a href="'. $url .'">'. $url .'</a>';

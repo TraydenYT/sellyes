@@ -1,10 +1,6 @@
 <?php
-    session_start();
 
     include_once("./include/index.php");
-    include("./include/bd.php");
-    include("./include/404.php");
-    include("./include/funct/funct.php");
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -33,11 +29,11 @@
 
       <section class="block__item block-item">
         <h2 class="block-item__title">У вас уже есть аккаунт?</h2>
-        <button class="block-item__btn signin-btn"><a href="<?php echo HOST; ?>?mode=auth"></a>Войти</button>
+        <button class="block-item__btn signin-btn">Войти</button>
       </section>
       <section class="block__item block-item">
         <h2 class="block-item__title">У вас нет аккаунта?</h2>
-        <button class="block-item__btn signup-btn">Зарегистрироваться</button>
+        <button class="block-item__btn signup-btn"><input type="submit" name="reg_submit" value="Зарегистрироваться"/></button>
       </section>
 
     </div>
@@ -56,7 +52,7 @@
           <input type="password" class="form__input" placeholder="Пароль">
         </p>
         <p>
-          <button class="form__btn">Войти</button>
+          <button class="form__btn"><a href="<?php echo HOST; ?>?mode=auth"></a><input type="submit" name="reg_submit" value="Войти"/></button>
         </p>
         <p>
           <a href="#" class="form__forgot">Восстановить пароль</a>
@@ -74,13 +70,14 @@
           <input type="email" class="form__input" placeholder="Email">
         </p>
         <p>
-          <input type="password" class="form__input" placeholder="Пароль">
+          <input type="pass" class="form__input" placeholder="Пароль">
         </p>
         <p>
-          <input type="password" class="form__input" placeholder="Подтвердите пароль">
+          <input type="pass2" class="form__input" placeholder="Подтвердите пароль">
         </p>
         <p>
-          <button class="form__btn form__btn_signup"><a href="<?php echo HOST; ?>?mode=auth"></a>Зарегистрироваться</button>
+          <button class="form__btn form__btn_signup"><a href="<?php echo HOST; ?>?mode=reg"></a>
+          <input type="submit" name="reg_submit" value="Зарегистрироваться"/></button>
         </p>
       </form>
 

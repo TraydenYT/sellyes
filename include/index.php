@@ -23,27 +23,25 @@
     define('CSGO_KEY', true);
 
     //Подключаем конфигурационный файл
-    include './config.php';
+    include 'config.php';
 
     //Подключаем Mysql
-    include './bd.php';
+    include 'bd.php';
 
     //Подключаем скрипт с функциями
-    include './funct/funct.js';
+    include $_SERVER['DOCUMENT_ROOT'].'/include/funct/funct.php';
     
     switch($mode)
 	{
 		//Подключаем обработчик с формой регистрации
 		case 'reg':
-			include '../registration.php';
 			include './reg/reg.php';
 		break;
 		
 		//Подключаем обработчик с формой авторизации
 		case 'auth':
-			include '../registration.php';
 			include './auth/auth.php';
-			include '<div class="">auth/show.php';
+			include './auth/show.php';
 		break;
     
 	}
@@ -51,7 +49,4 @@
     //Получаем данные буфера
     $content=ob_get_contents();
     ob_end_clean();
-
-    //Подключаем наш шаблон
-    include './registration.php';
 ?>
